@@ -3,9 +3,9 @@ resource "aws_security_group" "wiz_test" {
   description = "Wiz Code scan test"
 
   ingress {
-    from_port   = 22
-    to_port     = 22
-    protocol    = "tcp"
+    from_port   = 80
+    to_port     = 80
+    protocol    = "http"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
