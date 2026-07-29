@@ -11,4 +11,3 @@ resource "aws_security_group" "wiz_high_test" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-#완료
